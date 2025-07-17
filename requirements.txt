@@ -1,0 +1,4 @@
+Flask>=3.0.0
+yt-dlp>=2025.6.30
+supabase>=2.0.0
+python-dotenv>=1.1.1
