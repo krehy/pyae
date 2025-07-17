@@ -34,6 +34,8 @@ def extract_audio():
             'preferredquality': '5',
         }],
         'quiet': True,
+        'cookiefile': 'cookies/cookies.txt',  # cesta v repozitáři
+
     }
 
     with YoutubeDL(opts) as ydl:
