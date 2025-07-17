@@ -4,6 +4,8 @@ from supabase import create_client
 from dotenv import load_dotenv
 import os, uuid, glob
 
+os.environ["PATH"] += os.pathsep + os.path.abspath("bin")
+
 load_dotenv()
 
 app = Flask(__name__)
